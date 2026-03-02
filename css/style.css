@@ -1,52 +1,50 @@
-@media screen and (max-width: 500px) {
+/* m */
+@media screen and (max-width: 799px) {
     body{
-        background-color: black;
-        height: 100vh;
+        background-image: url(/webbutveckling/springWU/img/brown-leather-texture-background.jpg);
+        height: 200vh;
         display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: repeat(4,1fr);
+        margin: 0px;
+    }
+    #ih{
+        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
+        grid-row-start:1 ;
+        grid-row-end:2 ;
+        margin: 1%;
+        border-image: url(/webbutveckling/springWU/img/brown-leather-texture-background.jpg);
+        border-image-slice: 100%;
+    }
+    #is{
+        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
+        grid-row-start:2 ;
+        grid-row-end:3 ;
+    }
+    #id{
+        grid-row-start:3 ;
+        grid-row-end:4 ;
+    }
+    #il{
+        grid-row-start:4 ;
+        grid-row-end:4 ;
     }
 }
 
 /* d */
-@media screen and (min-width: 1000px) and (max-width: 1400px){
+@media screen and (min-width: 800px) and (max-width: 1400px){
     body{
         height: 100vh;
         display: grid;
-        grid-template-columns: repeat(5,1fr); 
-        grid-template-rows: repeat(5,1fr);
+        grid-template-columns: repeat(2,1fr); 
+        grid-template-rows: repeat(2,1fr);
         
         position: absolute;
         left:20vw;
         width: 100vw;
         height: 100vh;
-        background-color: greenyellow;
-        color: hotpink;
-
+        background-image: url(/webbutveckling/springWU/img/pexels-photo-326311.jpeg);
+        margin: 0px;
     }
-    .menu-button{
-        display: none;
-    }
-    #m{
-        grid-row-start:3 ;
-       grid-row-end:4;
-       grid-column-start:3 ;
-       grid-column-end:4 ;
-    }
-    #a{
-        grid-row-start:5 ;
-       grid-row-end:5;
-       grid-column-start:5 ;
-       grid-column-end:5 ;
-    }
-    .menu{
-    height: 100vh;
-    width: 10%;
-    background: hotpink;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: left 0.3s;
-    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
-    z-index: 10;
-}
-    
+   
 }
