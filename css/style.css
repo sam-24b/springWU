@@ -1,56 +1,183 @@
 /* m */
 @media screen and (max-width: 799px) {
+    /* start */
     body{
-        background-image: url(/webbutveckling/springWU/img/brown-leather-texture-background.jpg);
+        /* background-image: url(/webbutveckling/springWU/img/brown-leather-texture-background.jpg); */
         height: 200vh;
         display: grid;
         grid-template-columns:100%;
-        grid-template-rows: repeat(4,1fr);
+        grid-template-rows: 10% repeat(4,1fr);
         margin: 0px;
     }
     .b{
         display: grid;
         grid-template-columns:100%;
         grid-template-rows: repeat(4,1fr);
-        grid-row-start:1 ;
-        grid-row-end:5 ;
+        grid-row-start:2 ;
+        grid-row-end:6 ;
         margin-right: 1%;
         margin-left: 1%;
-        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
+        background-color: gray;
+        /* background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg); */
         font-family:cursive ;
+        text-align: center;
     }
-    #ih{
+    p{
+        grid-row-start:2 ;
+        grid-row-end:3 ;
+        font-size: large;
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 10px ;
+    }
+    h2{
         grid-row-start:1 ;
         grid-row-end:2 ;
     }
+    #ih{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: repeat(2,1fr);
+        background-color: gray;
+        grid-row-start:1 ;
+        grid-row-end:2 ;
+        text-align: center;
+    }
     #is{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: repeat(2,1fr);
+        background-color: gray;
         grid-row-start:2 ;
         grid-row-end:3 ;
+        text-align: center;
     }
     #id{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: repeat(2,1fr);
+        background-color: gray;
         grid-row-start:3 ;
         grid-row-end:4 ;
+        text-align: center;
     }
     #il{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: repeat(2,1fr);
+        background-color: gray;
         grid-row-start:4 ;
         grid-row-end:4 ;
+        text-align: center;
     }
 }
 
 /* d */
 @media screen and (min-width: 800px) and (max-width: 1400px){
+    /* start */
     body{
         height: 100vh;
         display: grid;
         grid-template-columns: repeat(2,1fr); 
-        grid-template-rows: repeat(2,1fr);
-        
+        grid-template-rows: 20% 80%;
         position: absolute;
-        left:20vw;
-        width: 100vw;
-        height: 100vh;
         background-image: url(/webbutveckling/springWU/img/pexels-photo-326311.jpeg);
         margin: 0px;
     }
-   
+    .b{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-row-start:2 ;
+        grid-row-end:2 ;
+        grid-column-start:1 ;
+        grid-column-end:3 ;
+        margin-right: 1%;
+        margin-left: 1%;
+        background-color: gray;
+        /* background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg); */
+        font-family:cursive ;
+        text-align: center;
+    }
+    p{
+        grid-row-start:2 ;
+        grid-row-end:3 ;
+        font-size: large;
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 10px ;
+    }
+    h2{
+        grid-row-start:1 ;
+        grid-row-end:2 ;
+    }
+    #ih{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: repeat(2,1fr);
+        background-color: gray;
+        grid-row-start:1 ;
+        grid-row-end:1 ;
+        grid-column-start:1 ;
+        grid-column-end:1 ;
+        text-align: center;
+    }
+    #is{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: repeat(2,1fr);
+        background-color: gray;
+        grid-row-start:1 ;
+        grid-row-end:1 ;
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        text-align: center;
+    }
+    #id{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: repeat(2,1fr);
+        background-color: gray;
+        grid-row-start:2 ;
+        grid-row-end:2 ;
+        grid-column-start:1 ;
+        grid-column-end:1 ;
+        text-align: center;
+    }
+    #il{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: repeat(2,1fr);
+        background-color: gray;
+        grid-row-start:2 ;
+        grid-row-end:2 ;
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        text-align: center;
+    }
+}
+
+/* almen */
+a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#lb{
+    grid-row-start:1 ;
+    grid-row-end:1 ;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+    background-image: url(/webbutveckling/springWU/img/bookmark-book-icon.png);
+    background-image: 1fr;
+    background-position: left;
+    background-size: 16vw ;
+    background-repeat: no-repeat;
 }
