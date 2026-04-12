@@ -22,7 +22,7 @@
         font-family:cursive ;
         text-align: center;
     }
-    p{
+    p.i{
         grid-row-start:2 ;
         grid-row-end:3 ;
         font-size: large;
@@ -77,7 +77,7 @@
 /* d */
 @media screen and (min-width: 800px) and (max-width: 1400px){
     /* start */
-    body{
+    body.h{
         height: 100vh;
         display: grid;
         grid-template-columns: repeat(2,1fr); 
@@ -101,7 +101,7 @@
         font-family:cursive ;
         text-align: center;
     }
-    p{
+    p.i{
         grid-row-start:2 ;
         grid-row-end:3 ;
         font-size: large;
@@ -180,4 +180,42 @@ a:visited{
     background-position: left;
     background-size: 16vw ;
     background-repeat: no-repeat;
+}
+/* sida */
+ body.x{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 10% 30% 40%;
+    
+}
+.top{
+    display: flex;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    background-color: grey;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: space-between;
+    justify-content: center;
+}
+.m-b{
+    justify-self: start ;
+}
+.bu{
+    justify-self: start ;
+}
+#r{
+    justify-self: end ;
+}
+p.p{
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+    background-color: grey;
+}
+.l{
+    display: grid;
+    grid-row-start:3 ;
+    grid-row-end:3 ;
+    background-color: grey;
 }
