@@ -268,3 +268,9 @@ p.p{
     grid-row-end:3 ;
     background-color: grey;
 }
+i{
+    font-style: normal;
+}
+p{
+    word-wrap: normal;
+}
