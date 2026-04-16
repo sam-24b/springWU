@@ -2,7 +2,7 @@
 @media screen and (max-width: 800px) {
     /* start */
     body.h{
-        /* background-image: url(/webbutveckling/springWU/img/brown-leather-texture-background.jpg); */
+        background-image: url(/webbutveckling/springWU/img/brown-leather-texture-background.jpg);
         height: 200vh;
         display: grid;
         grid-template-columns:100%;
@@ -13,12 +13,12 @@
         display: grid;
         grid-template-columns:100%;
         grid-template-rows: repeat(4,1fr);
-        grid-row-start:2 ;
+        grid-row-start:1 ;
         grid-row-end:6 ;
-        margin-right: 1%;
-        margin-left: 1%;
-        background-color: gray;
-        /* background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg); */
+        margin-right: 0%;
+        margin-left: 2%;
+        background-color: rgb(0, 0, 0);
+        
         font-family:cursive ;
         text-align: center;
     }
@@ -44,6 +44,8 @@
         grid-row-start:1 ;
         grid-row-end:2 ;
         text-align: center;
+        margin: 0.2%;
+        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
     }
     #is{
         display: grid;
@@ -53,6 +55,8 @@
         grid-row-start:2 ;
         grid-row-end:3 ;
         text-align: center;
+        margin: 0.2%;
+        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
     }
     #id{
         display: grid;
@@ -62,6 +66,8 @@
         grid-row-start:3 ;
         grid-row-end:4 ;
         text-align: center;
+        margin: 0.2%;
+        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
     }
     #il{
         display: grid;
@@ -71,6 +77,8 @@
         grid-row-start:4 ;
         grid-row-end:4 ;
         text-align: center;
+        margin: 0.2%;
+        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
     }
 
     #m{
@@ -167,6 +175,17 @@
         grid-column-end:2 ;
         text-align: center;
     }
+    #lb{
+        grid-row-start:1 ;
+        grid-row-end:1 ;
+        grid-column-start:1 ;
+        grid-column-end:1 ;
+        background-image: url(/webbutveckling/springWU/img/bookmark-book-icon.png);
+        background-image: 1fr;
+        background-position: left;
+        background-size: 16vw ;
+        background-repeat: no-repeat;
+    }
 
     #m{
         display: flex;
@@ -185,17 +204,7 @@ a:visited{
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-#lb{
-    grid-row-start:1 ;
-    grid-row-end:1 ;
-    grid-column-start:1 ;
-    grid-column-end:1 ;
-    background-image: url(/webbutveckling/springWU/img/bookmark-book-icon.png);
-    background-image: 1fr;
-    background-position: left;
-    background-size: 16vw ;
-    background-repeat: no-repeat;
-}
+
 /* sida */
  body.x{
     height: 100vh;
