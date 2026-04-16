@@ -95,27 +95,29 @@
     body.h{
         height: 100vh;
         display: grid;
-        grid-template-columns: repeat(2,1fr); 
-        grid-template-rows: 20% 80%;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.5% 99% 0.5%;
         position: absolute;
-        /* background-image: url(/webbutveckling/springWU/img/pexels-photo-326311.jpeg); */
+        background-image: url(/webbutveckling/springWU/img/brown-leather-texture-background.jpg);
         background-color: white;
         margin: 0px;
     }
     .b{
         display: grid;
-        grid-template-columns:repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-columns:49% 2% 49%;
+        grid-template-rows: 49.5vh 49.5vh;
         grid-row-start:2 ;
         grid-row-end:2 ;
-        grid-column-start:1 ;
-        grid-column-end:3 ;
+        /* grid-column-start:2 ;
+        grid-column-end:2 ; */
+        margin: 0%;
         margin-right: 1%;
         margin-left: 1%;
         background-color: gray;
-        /* background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg); */
+        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
         font-family:cursive ;
         text-align: center;
+        align-items: center;
     }
     p.i{
         grid-row-start:2 ;
@@ -133,9 +135,10 @@
     }
     #ih{
         display: grid;
+        height: 49.5vh;
         grid-template-columns:100%;
         grid-template-rows: repeat(2,1fr);
-        background-color: gray;
+        /* background-color: gray; */
         grid-row-start:1 ;
         grid-row-end:1 ;
         grid-column-start:1 ;
@@ -144,38 +147,57 @@
     }
     #is{
         display: grid;
+        height: 49.5vh;
         grid-template-columns:100%;
         grid-template-rows: repeat(2,1fr);
-        background-color: gray;
+        /* background-color: gray; */
         grid-row-start:1 ;
         grid-row-end:1 ;
-        grid-column-start:2 ;
-        grid-column-end:2 ;
+        grid-column-start:3 ;
+        grid-column-end:3 ;
         text-align: center;
     }
     #id{
         display: grid;
+        height: 49vh;
         grid-template-columns:100%;
         grid-template-rows: repeat(2,1fr);
-        background-color: gray;
+        /* background-color: gray; */
         grid-row-start:2 ;
         grid-row-end:2 ;
         grid-column-start:1 ;
         grid-column-end:1 ;
         text-align: center;
     }
-    #il{
+        #il{
         display: grid;
+        height: 49vh;
         grid-template-columns:100%;
         grid-template-rows: repeat(2,1fr);
-        background-color: gray;
+        /* background-color: gray; */
         grid-row-start:2 ;
         grid-row-end:2 ;
-        grid-column-start:2 ;
-        grid-column-end:2 ;
+        grid-column-start:3 ;
+        grid-column-end:3 ;
         text-align: center;
     }
-    #lb{
+    #s{
+        display: flex;
+        height: 100vh;
+        grid-row-start:1 ;
+        grid-row-end:3 ;
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        flex-direction: column;
+
+    }
+    #ss{
+        justify-self: center;
+        height: 100vh;
+        background-position: center;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(88, 88, 88), rgba(255, 255, 255, 0));
+    }
+    /* #lb{
         grid-row-start:1 ;
         grid-row-end:1 ;
         grid-column-start:1 ;
@@ -185,7 +207,7 @@
         background-position: left;
         background-size: 16vw ;
         background-repeat: no-repeat;
-    }
+    } */
 
     #m{
         display: flex;
