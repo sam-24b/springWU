@@ -319,7 +319,146 @@
         background-size: 16vw ;
         background-repeat: no-repeat;
     } */
+    body.x{
+        background-image: url(/webbutveckling/springWU/img/brown-leather-texture-background.jpg);
+        height: 100vh;
+        display: grid;
+        margin: 0px;
+        grid-template-rows: 0.5% 99% 0.5%;
+        align-items: center;
+    }
+    .pp{
+        display: grid;
+        height: 99vh;
+        margin: 0px;
+        grid-row-start:2 ;
+        grid-row-end:2 ;
+        /* margin-top: 0.5%; */
+        margin-left: 2%;
+        margin-right: 2%;
+        /* margin-bottom: 0.5%; */
+        grid-template-columns: 49% 2% 49%; 
+        grid-template-rows: 20% 40% 40%;
+        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
+        align-items: center;
+    }
+    .top{
+        display: flex;
+        grid-row-start:1 ;
+        grid-row-end:2 ;
+        /* background-color: grey; */
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: space-between;
+        justify-content: space-between;
+        border-color:black ;
+        border-style: solid;
+        border-top: 0px  ;
+        border-right: 0px ;
+        border-left: 0px ;
+    }
+    .m-b{
+        justify-self: start ;
+        cursor: pointer;
+        display: inline;
+        font-family: 'Material Icons';
+        margin: 0;
+    }
+    .m-b i.m-i{
+        font-size: 2.5rem;
+    }
+    .m{
+        height: 100vh;
+        width: 80vw;
+        background-image: url(/webbutveckling/springWU/img/white-crumpled-paper-texture-background.jpg);
+        position: fixed;
+        top: 0;
+        left: -90vw;
+        transition: left 0.3s;
+        box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+        z-index: 10;
+    }
+    button{
+        font-family: 'Material Icons';
+        padding: 0%;
+        border: 0px;
+        color: red;
+        font-size: 9vh;
+    }
+    .show{
+        left: 0;
+    }
+    .fade-layer{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        display: none;
+        z-index: 5;
+    }
+    .fade-layer.visible{
+        display: block;
+    }
+    .bu{
+        justify-self: start ;
+    }
+    #r{
+        justify-self: end ;
+    }
+    p.p{
+        grid-row-start:2 ;
+        grid-row-end:3 ;
+        /* background-color: rgb(255, 255, 255); */
+        border-color:black ;
+        border-style: solid;
+        /* border-radius: 2vw ; */
+        /* border-top: 0px  ; */
+        border-right: 0px ;
+        border-left: 0px ;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .l{
+        display: grid;
+        grid-row-start:1 ;
+        grid-row-end:4 ;
+        grid-column-start: 3 ;
+        grid-column-end: 3 ;
+        /* background-color: grey; */
+        border-color:black ;
+        border-style: solid;
+        /* border-radius: 2vw ; */
+        /* border-top: 0px  ; */
+        border-right: 0px ;
+        border-left: 0px ;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    i{
+        font-style: normal;
+    }
+    p{
+        word-wrap: normal;
+    }
+    #sk{
+        display: flex;
+        height: 100vh;
+        grid-row-start:1 ;
+        grid-row-end:4 ;
+        grid-column-start:2 ;
+        grid-column-end:2 ;
+        flex-direction: column;
 
+    }
+    #sksk{
+        justify-self: center;
+        height: 100vh;
+        background-position: center;
+        background-position: bottom;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(88, 88, 88), rgba(255, 255, 255, 0));
+    }
     #m{
         display: flex;
         align-items: center;
